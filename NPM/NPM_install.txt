@@ -1,0 +1,7 @@
+# we don't upload node_modules folder inside github because modules folder is heavy in size and is not ideal to upload we only upload code we write and re-install node dependencies via "npm install" using package.json file.
+
+To install the dependencies specified in package.json, use the command npm install in the directory where the package.json file is located. This will create a node_modules directory in the current directory and install the dependencies specified in the package.json file.
+
+If you want to install dependencies from another directory, you can use the npm link command to create a symbolic link to the node_modules directory in the target directory. For example:
+
+npm link /path/to/node_modules

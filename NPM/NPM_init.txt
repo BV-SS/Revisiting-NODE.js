@@ -1,0 +1,1 @@
+To initialize a new npm project, you can use the npm init command in your terminal.IT will initializethe project and create a package.json file for you. If you don’t provide any options, npm init will ask you a series of questions and then generate a package.json file in your project directory.

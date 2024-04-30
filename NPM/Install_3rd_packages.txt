@@ -1,0 +1,9 @@
+Install Lodash library
+
+--> npm install lodash
+
+Lodash is a JavaScript library that provides utility functions for common programming tasks using a functional programming paradigm. It builds upon the older underscore.js library and provides a wide range of functions to make coding in JavaScript easier and cleaner.
+
+Lodash can be installed using npm by running the command npm install --save lodash. After installation, Lodash can be imported into a JavaScript file using the following code:
+
+const _ = require('lodash');
