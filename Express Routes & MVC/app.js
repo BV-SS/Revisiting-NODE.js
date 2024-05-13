@@ -7,7 +7,7 @@ const app = express();
 // connect to mongodb and listen for requests when connected to db
 
 const dbURI =
-  "mongodb+srv://<user>:<password>@node-tuts.4fyd3ob.mongodb.net/?retryWrites=true&w=majority&appName=Node-tuts";
+  "mongodb+srv://Bharti:Bharti_first_mdb_$$@node-tuts.4fyd3ob.mongodb.net/Node-Course?retryWrites=true&w=majority&appName=Node-tuts";
 
 mongoose
   .connect(dbURI)
